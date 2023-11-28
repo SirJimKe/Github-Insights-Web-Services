@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+</head>
+<body>
+    <h1>User Profile</h1>
+
+    {% if user_data %}
+        <h2>{{ user_data.name }}</h2>
+        <p><strong>Username:</strong> {{ user_data.login }}</p>
+        <p><strong>Email:</strong> {{ user_data.email or 'N/A' }}</p>
+        <p><strong>Location:</strong> {{ user_data.location or 'N/A' }}</p>
+        <p><strong>Followers:</strong> {{ user_data.followers or '0' }}</p>
+        <p><strong>Following:</strong> {{ user_data.following or '0' }}</p>
+        <p><strong>Public Repositories:</strong> {{ user_data.public_repos or '0' }}</p>
+    {% else %}
+        <p>No user data available.</p>
+    {% endif %}
+</body>
+</html>
