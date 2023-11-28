@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ username }}'s Repositories</title>
+</head>
+<body>
+    <h1>{{ username }}'s Repositories</h1>
+
+    {% if repositories %}
+        <ul>
+            {% for repo in repositories %}
+                <li>
+                    <strong>{{ repo.name }}</strong>
+                    <p>{{ repo.description }}</p>
+                    <p>Language: {{ repo.language }}</p>
+                    <p>Stars: {{ repo.stargazers_count }}</p>
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No repositories found for {{ username }}.</p>
+    {% endif %}
+</body>
+</html>
