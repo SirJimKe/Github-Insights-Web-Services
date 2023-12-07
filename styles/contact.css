@@ -1,0 +1,47 @@
+/* Contact Section Styles */
+#contact {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.contact-columns {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-column {
+    flex: 1;
+    margin: 0 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-link {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.social-link a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-link a:hover {
+    color: #2980b9;
+}
+
+.contact-name {
+    font-size: 1.5em;
+}
