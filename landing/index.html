@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>GitSphere - GitHub Insights Web Service</title>
+	<link rel="stylesheet" href="./styles/index.css">
+	<link rel="stylesheet" href="./styles/navbar.css">
+	<link rel="stylesheet" href="./styles/about.css">
+	<link rel="stylesheet" href="./styles/intro.css">
+	<link rel="stylesheet" href="./styles/features.css">
+	<link rel="stylesheet" href="./styles/about.css">
+	<link rel="stylesheet" href="./styles/contact.css">
+    </head>
+
+    <body>
+	<div id="page-wrapper">
+	    <header id="header">
+		<div class="logo">
+		    <img src="./assets/logo.png" alt="GitHub Logo" class="header-img">
+		</div>
+		<nav id="nav-bar">
+		    <ul>
+			<li><a href="#home" class="nav-link">Home</a></li>
+			<li><a href="#features" class="nav-link">Features</a></li>
+			<li><a href="#about" class="nav-link">About</a></li>
+			<li><a href="#contact" class="nav-link">Contact</a></li>
+		    </ul>
+		</nav>
+	    </header>
+
+	    <section id="intro">
+		<h2>Welcome to GitSphere!</h2>
+		<h3>Empowering Developers with Data-driven Insights and Analytics.</h3>
+		<p>Explore the power of GitSphere and gain valuable insights into your GitHub repositories.</p>
+		<button id="explore-btn" type="button" onclick="exploreMore()">Explore more</button>
+	    </section>
+	    <section id="features">
+		<div class="features-container">
+		    <h2>Manage your GitHub profile today</h2>
+		    <div class="feature">
+			<div class="icon"><img src="./assets/github.img" alt="Statistics Icon" class="icon-img"></div>
+			<div class="desc">
+			    <h3>Detailed Statistics and Analytics</h3>
+			    <p>Track your progress and contributions over time with visualizations, including code frequency and contributor insights.</p>
+			</div>
+		    </div>
+		    <div class="feature">
+			<div class="icon"><img src="./assets/repos.img" alt="Search Icon" class="icon-img"></div>
+			<div class="desc">
+			    <h3>Repository Management</h3>
+			    <p>Create, manage, and streamline your workflow with detailed insights into changes made in your repositories.</p>
+			</div>
+		    </div>
+		    <div class="feature">
+			<div class="icon"><img src="./assets/search.img" alt="Search Icon" class="icon-img"></div>
+			<div class="desc">
+			    <h3>Search Functionality</h3>
+			    <p>Discover interesting projects, connect with developers, and filter results based on programming languages and activity.</p>
+			</div>
+		    </div>
+		</div>
+		<div class="features-img">
+		    <div>
+			<img src="./assets/features.png" alt="Features Image" class="feature-img">
+		    </div>
+		</div>
+	    </section>
+
+	    <section id="about">
+		<div class="info">
+		    <h3>About GitSphere</h3>
+		    <p>GitSphere is a project driven by a passion for enhancing the GitHub experience for developers worldwide. It goes beyond showcasing coding skills, providing intuitive insights into GitHub journeys and contributions.</p>
+		    <p class="project">
+			This project is part of my portfolio for Holberton School, completed on 12/12/2023.
+			Find the project repository on <a href="https://github.com/valariembithe/GitSphere" target="_blank" id="repo-link">GitHub</a>.
+		    </p>
+		</div>
+	    </section>
+
+	    <footer id="contact">
+		<h2>Contacts</h2> <!-- Added title -->
+		<div class="contact-columns">
+		    <div class="contact-column">
+			<p class="contact-name">Jimmy Mutuku</p> <!-- Added name -->
+			<ul>
+			    <li class="social-link"><a href="https://github.com/JimmyMutuku" target="_blank">GitHub</a></li>
+			    <li class="social-link"><a href="https://www.linkedin.com/in/jimmymutuku/" target="_blank">LinkedIn</a></li>
+			    <li class="social-link"><a href="https://twitter.com/JimmyMutuku_" target="_blank">Twitter</a></li>
+			</ul>
+		    </div>
+		    <div class="contact-column">
+			<p class="contact-name">Valarie Mbithe</p> <!-- Added name -->
+			<ul>
+			    <li class="social-link"><a href="https://github.com/valariembithe" target="_blank">GitHub</a></li>
+			    <li class="social-link"><a href="https://www.linkedin.com/in/valarie-muema-549403231/" target="_blank">LinkedIn</a></li>
+			    <li class="social-link"><a href="https://twitter.com/Vlrmbithee" target="_blank">Twitter</a></li>
+			</ul>
+		    </div>
+		</div>
+	    </footer>
+
+
+	</div>
+
+	<script>
+	    function exploreMore() {
+		    window.location.href = "#";
+		}
+	    </script>
+    </body>
+
+</html>

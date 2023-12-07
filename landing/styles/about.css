@@ -1,0 +1,23 @@
+/* About Section Styles */
+#about {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 80px 20px; /* Adjusted padding for better spacing */
+    text-align: center;
+}
+
+#about h3 {
+    font-size: 2.5em; /* Adjusted font size */
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+#about p {
+    font-size: 1.5em; /* Adjusted font size */
+    line-height: 1.6;
+    margin-bottom: 20px; /* Adjusted margin for better spacing */
+}
+
+.project {
+    font-size: 1.2em; /* Adjusted font size */
+}
